@@ -47,12 +47,14 @@
 <hr>
 
 
-       <titulo1>verduras</titulo1><br>
-       vegetales:
+       <titulo1>Ingredientes</titulo1><br>
+       Vegetales:
        <input type="checkbox"id="tomate"checked><label for="tomate">tomate</label>
        <input type="checkbox"id="cebolla"checked><label for="cebolla">cebolla</label>       
-       <input type="checkbox"id="lechuga"checked><label for="tomate">lechuga</label>
-       <input type="checkbox"id="pepinos"checked><label for="tomate">pepinos</label><br>
+       <input type="checkbox"id="lechuga"checked><label for="lechuga">lechuga</label>
+       <input type="checkbox"id="pepinillos"checked><label for="pepinillos">pepinillos</label><br>
+       <input type="checkbox"id="queso"checked><label for="queso">queso</label><br>
+       <input type="checkbox"id="queso"checked><label for="queso">queso</label><br>
        
 <input type="submit"value="enviar">
 <input type="reset"value="borrar">
@@ -71,7 +73,8 @@
             tomate:document.getElementById("tomate").checked ? "Si": "No",
             cebolla:document.getElementById("cebolla").checked ? "Si": "No",
             lechuga:document.getElementById("lechuga").checked ? "Si": "No",
-            pepinos:document.getElementById("pepinos").checked ? "Si": "No"
+            pepinillos:document.getElementById("pepinillos").checked ? "Si": "No",
+            queso:document.getElementById("queso").checked ? "Si": "No",
 
  };
         localStorage.setItem ("orden",JSON.stringify(orden));

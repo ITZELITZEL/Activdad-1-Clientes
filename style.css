@@ -1,13 +1,13 @@
 body {
-    background-color: 	cadetblue;
-        font-family:'Gill Sans', 'Gill Sans M T', Calibri, 'Trebuchet MS', sans-serif
+    background-color: #FDE2D5;
+    font-family: 'Comiccomoc', sans-serif;                                          
     }
     
     h1{
         color: black;
     }
     th{
-        background-color: 	 #0bf364;
+        background-color: #6CECBF;
     }
     table{
         margin-left: 420px;
@@ -17,9 +17,9 @@ body {
     margin:15px 15px 15px 15px;
     }
     titulo1{
-        font-family: 'PROJECT SPACE', sans-serif;
+        font-family: 'Levitation', sans-serif;                                       
             font-size: 50px;
-            color: blue;
+            color: #8F74F3;
             text-align: center;                                       
     }
                                      
